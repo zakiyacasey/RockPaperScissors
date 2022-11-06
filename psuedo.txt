@@ -1,0 +1,13 @@
+program: playGame 
+create prompt box for user to enter userSelection 
+let userSelection equal promptReponse.toLowercase... making it case insensitive
+if userSelection equal rock, paper or scissors return userSelection 
+let getComputerChoice be random from the 3 options rock paper scissors
+let computerChoice equal getComputerChoice
+if userSelection equals computerSelection call it a tie
+if userSelection equals rock and computerSelection equals scissors user  rock beats scissors 
+if userSelection equals rock and computerSelection equals paper computer wins paper covers rock
+if userSelection equals paper and computerSelection equals scissors computer wins scissors cuts paper
+if userSelection equals paper and computerSelection equals rock user wins paper covers rock
+if userSelection equals scissors and computerSelection equals paper user wins scissors cut paper
+if userSelection equals scissors and computerSelection equals rock computer wins rock beats scissors
